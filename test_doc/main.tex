@@ -1,0 +1,45 @@
+\documentclass{article}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\title{A Simple LaTeX Document}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This is a simple LaTeX document created to demonstrate the basics of LaTeX. It includes a title, an abstract, sections, and some basic text formatting.
+\end{abstract}
+
+\section{Introduction}
+This is the introduction section. LaTeX is a typesetting system that is widely used for producing scientific and mathematical documents due to its powerful handling of formulas and bibliographies.
+
+\section{Basic Text Formatting}
+You can make text \textbf{bold}, \textit{italic}, or \underline{underlined}.
+
+\section{Mathematics}
+LaTeX is excellent for typesetting mathematics. For example, here is an inline equation: \( E = mc^2 \). And here is a displayed equation:
+\[
+\int_0^\infty e^{-x^2} \, dx = \frac{\sqrt{\pi}}{2}
+\]
+
+\section{Figures}
+You can also include figures in your document. Here is an example of how to include a figure:
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{example-image}
+    \caption{An example image.}
+    \label{fig:example}
+\end{figure}
+
+\section{References and Hyperlinks}
+You can add references and hyperlinks to your document. For example, visit \href{https://www.latex-project.org/}{LaTeX Project} for more information.
+
+\end{document}
